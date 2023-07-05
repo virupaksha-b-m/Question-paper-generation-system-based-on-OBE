@@ -1,0 +1,45 @@
+import React, { useState, useEffect } from 'react';
+import axios from 'axios';
+
+function ViewProgram () {
+  
+  const [program, setProgram] = useState([]);
+
+
+  useEffect(() => {
+    axios.get('http://localhost:9002/getProgram')
+      .then(response => {
+        setProgram(response.data);
+      })
+      .catch(error => console.error(error));
+  }, []);
+
+
+  return (
+    // <>
+    <div className='container p-3 justify-content-center '>
+        <h3 className='text-center'>Programs</h3>
+        <table className="table table-bordered table-light table-striped ">
+  <thead>
+    <tr>
+      <th scope="col" className='w-50'>Name</th>
+      <th scope="col">Code</th>
+    </tr>
+  </thead>
+  <tbody>
+   
+    {program.map(option => (
+        <tr>
+            <td>{option.name}</td>
+            <td>{option.code}</td>
+        </tr>
+          ))}
+  </tbody>
+</table>
+     
+    </div>
+    //  </> 
+  );
+}
+
+export default ViewProgram;

@@ -1,0 +1,85 @@
+
+.uploadQuestion {
+    /* display: flex;
+    flex-direction: column; */
+    /* align-items: center;
+    justify-content:center; */
+    margin-top: 70px;
+    width: 60%;
+    background: #f0f2f5;
+    /* height: 800px; */
+    /* position: relative; */
+    /* background-image: url('../assets/homepage-bg.jpg');
+    background-repeat: no-repeat;
+    
+    background-attachment: fixed;
+    background-size: 100% 100%; */
+}
+
+h4{
+  text-align: center;
+}
+
+.dropdown {
+    padding: 20px;
+    font-size: 16px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .dropdown-option {
+    padding: 5px;
+  }
+
+  
+/* 
+.upload-question-form {
+    padding-left: 5%;
+    padding-right: 5%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 10% auto;
+    align-items: center;
+    justify-content: center;
+  } */
+   
+   label {
+    width: 60%;
+    margin-top: 20px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size:large;
+  }
+  
+  textarea,
+  input {
+    width: 60%;
+    padding : 10px;
+    border-radius: 5px;
+    font-size: large;
+    border: 1px solid #ccc;
+  }
+
+  select {
+    width: 200px;
+  } 
+
+
+  /* button[type='submit'] {
+    width: 22%;
+    background-color: #4CAF50;
+    margin-top: 2%;
+
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+    margin-bottom: 2%;
+  }
+  
+  button[type='submit']:hover {
+    background-color: #3e8e41;
+  } */
+  
