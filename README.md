@@ -73,7 +73,55 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 
 
 
-# TECH STACK MERN
+# TECH STACK 
+**MERN stack**
+
+# WORKING
+**4.1.1 Faculty Login:**
+1. Enters email and Password. Gets Redirected to the homepage.
+2. Can perform three functionalities
+i) Upload Questions
+ii) Set Paper Format
+iii) Generate Paper
+3. Upload Question :
+• Select course, chapter, and topic.
+• Fill in the question details such as question description, PI code, CO(Course Outcome), BL(Bloom’s Level), and marks.
+• Click on ADD button.
+• The Question will get added to the database.
+4. Set Paper Format:
+• Select course and ISA.
+• Enter the Paper Setter email.
+• Add the PI code and CO(Course Outcome) to be included in the question paper
+while generating the paper.
+Department of Computer Science & Engineering, KLE Technological University, Hubballi - 31 16
+«Question Paper Generation for Outcome Based Education>
+• Click on Submit button.
+5. Generate Paper :
+• Only the faculties who are allowed to generate paper will be able to perform this
+functionality for only those courses which contains the paper setter email same as
+the login email.
+• Select course - (if the faculty is allowed to generate a paper for the selected course
+then, Question Code Details will be shown).
+• Select ISA and Exam Date. Now, A Paper Details Form will appear after filling
+the above form if the Question code is displayed or else the user is not assigned as
+a paper setter for the selected course.
+• Three Question form will appear where PI code, CO, and BL are supposed to be
+filled and submitted to generate question Regenerate the section if not satisfied
+with it.
+• Finally click on Show Paper to view the preview of the question paper and then
+click on Download Paper and save it to your system.
+**4.1.2 Admin Login:**
+1. Enters admin credential and gets redirected to the admin page.
+2. Can perform functionalities such as :
+• Add Programs
+• Add Departments
+• Add Courses
+• Add Chapters
+• Add faculties
+• View Database
+3. Under View Database, admin can view faculty details, Program Details, Department
+Details, Course Details, and Chapter Details.
+
 
 output
 
